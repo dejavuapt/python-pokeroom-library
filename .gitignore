@@ -1,1 +1,3 @@
-_env
+.venv
+dist
+*.egg-info

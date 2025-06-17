@@ -1,0 +1,22 @@
+[build-system]
+requires = ['setuptools>=77.0.3']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "python-pokeroom-library"
+version = "0.25.17.06.2320"
+dependencies = [
+    "aiohttp>=3.12.12", 
+    "requests>=2.32.4"
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "xdashduck", email = "thepoli.b@gmail.com"},
+]
+description = "That library helps to create Python apps with Pokeroom Service connect easy."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+classifiers = [
+  "Programming Language :: Python :: 3"
+]
